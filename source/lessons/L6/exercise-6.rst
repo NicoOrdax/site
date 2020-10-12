@@ -86,7 +86,7 @@ Consider a following example. Let's first create some test data to our DataFrame
     data1
     data2
 
-As we can see here, there different number of rows in the DataFrames. Important thing to notice is that there seems to be a common column called ``Time`` that we can use to
+As we can see here, there are different number of rows in the DataFrames. Important thing to notice is that there seems to be a common column called ``Time`` that we can use to
 join these DataFrames together. In Pandas we can conduct a table join with ``merge`` -function. Consider following example where we join the data **from** ``data2`` DataFrame **to** ``data1`` DataFrame.
 
 .. ipython:: python
